@@ -22,7 +22,7 @@ const Navbar = () => {
         <button onClick={navToggleHandler} className={'block sm:hidden'}>
             {!nav ? <AiOutlineClose size={20} /> :  <AiOutlineMenu size={20}/>} 
         </button>
-        <div className={!nav ? 'fixed sm:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] m-4 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={!nav ? 'fixed sm:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] p-4 ease-in-out duration-500' : 'fixed left-[-100%]'}>
             <h1 className='w-full mt-4 text-3xl font-bold text-[#00df9a]'>REACT.</h1>
             <ul className='uppercase p-4'>
                 <li className='p-4 border-b border-gray-600'>Home</li>

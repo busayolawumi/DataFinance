@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className='md:text-5xl sma:text-4xl text-xl font-bold py-3'>Fast, flexible financing for </p>
                 <Typed className='md:text-5xl sma:text-4xl text-xl font-bold md:pl-3 pl-2' strings={['B2B', 'B2C', 'SASS']} typeSpeed={120} backSpeed={140} loop />
             </div>
-            <p className='md: text-2xl text-xl, font-bold text-gray-500'>Monitor your data analytics to increas revenue for B2B, B2C & SASS platforms</p>
+            <p className='md:text-2xl text-xl, font-bold text-gray-500'>Monitor your data analytics to increas revenue for B2B, B2C & SASS platforms</p>
             <button className='bg-[#00df9a] text-black w-[200px] rounded-md font-medium mx-auto my-6 py-3'>Get Started</button>
         </div>      
     </div>
